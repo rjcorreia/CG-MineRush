@@ -14,11 +14,14 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Compile external dependencies
-add_subdirectory(external)
+add_subdirectory(src/vendor)
 
 include_directories(
-        external/glfw-3.3.3/include/GLFW/
-        external/glad/include/
+        src/vendor/glfw-3.3.3/include/GLFW/
+        src/vendor/glad/include/
+        src/vendor/glm/
+        src/vendor/imgui/
+        src/vendor/stb_image/
         res/
         src/vendor/
 )
@@ -30,7 +33,8 @@ add_subdirectory(src)
 set(ALL_LIBS
         ${OPENGL_LIBRARY}
         glfw3
-        glad)
+        glad
+        glm)
 
 
 

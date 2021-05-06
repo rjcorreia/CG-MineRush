@@ -185,7 +185,7 @@ uninstall: cmake_check_build_system
 
 # fast build rule for target.
 uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/CMakeFiles/uninstall.dir/build.make external/glfw-3.3.3/CMakeFiles/uninstall.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/CMakeFiles/uninstall.dir/build.make src/vendor/glfw-3.3.3/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 #=============================================================================
@@ -198,7 +198,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/src/CMakeFiles/glfw.dir/build.make external/glfw-3.3.3/src/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/src/CMakeFiles/glfw.dir/build.make src/vendor/glfw-3.3.3/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 #=============================================================================
@@ -211,7 +211,7 @@ wave: cmake_check_build_system
 
 # fast build rule for target.
 wave/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/wave.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/wave.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/wave.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/wave.dir/build
 .PHONY : wave/fast
 
 #=============================================================================
@@ -224,7 +224,7 @@ simple: cmake_check_build_system
 
 # fast build rule for target.
 simple/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/simple.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/simple.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/simple.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/simple.dir/build
 .PHONY : simple/fast
 
 #=============================================================================
@@ -237,7 +237,7 @@ sharing: cmake_check_build_system
 
 # fast build rule for target.
 sharing/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/sharing.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/sharing.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/sharing.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/sharing.dir/build
 .PHONY : sharing/fast
 
 #=============================================================================
@@ -250,7 +250,7 @@ particles: cmake_check_build_system
 
 # fast build rule for target.
 particles/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/particles.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/particles.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/particles.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/particles.dir/build
 .PHONY : particles/fast
 
 #=============================================================================
@@ -263,7 +263,7 @@ heightmap: cmake_check_build_system
 
 # fast build rule for target.
 heightmap/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/heightmap.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/heightmap.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/heightmap.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/heightmap.dir/build
 .PHONY : heightmap/fast
 
 #=============================================================================
@@ -276,7 +276,7 @@ splitview: cmake_check_build_system
 
 # fast build rule for target.
 splitview/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/splitview.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/splitview.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/splitview.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/splitview.dir/build
 .PHONY : splitview/fast
 
 #=============================================================================
@@ -289,7 +289,7 @@ offscreen: cmake_check_build_system
 
 # fast build rule for target.
 offscreen/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/offscreen.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/offscreen.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/offscreen.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/offscreen.dir/build
 .PHONY : offscreen/fast
 
 #=============================================================================
@@ -302,7 +302,7 @@ gears: cmake_check_build_system
 
 # fast build rule for target.
 gears/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/gears.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/gears.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/gears.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/gears.dir/build
 .PHONY : gears/fast
 
 #=============================================================================
@@ -315,7 +315,7 @@ boing: cmake_check_build_system
 
 # fast build rule for target.
 boing/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/examples/CMakeFiles/boing.dir/build.make external/glfw-3.3.3/examples/CMakeFiles/boing.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/examples/CMakeFiles/boing.dir/build.make src/vendor/glfw-3.3.3/examples/CMakeFiles/boing.dir/build
 .PHONY : boing/fast
 
 #=============================================================================
@@ -328,7 +328,7 @@ triangle-vulkan: cmake_check_build_system
 
 # fast build rule for target.
 triangle-vulkan/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/triangle-vulkan.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/triangle-vulkan.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/triangle-vulkan.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/triangle-vulkan.dir/build
 .PHONY : triangle-vulkan/fast
 
 #=============================================================================
@@ -341,7 +341,7 @@ clipboard: cmake_check_build_system
 
 # fast build rule for target.
 clipboard/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/clipboard.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/clipboard.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/clipboard.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/clipboard.dir/build
 .PHONY : clipboard/fast
 
 #=============================================================================
@@ -354,7 +354,7 @@ title: cmake_check_build_system
 
 # fast build rule for target.
 title/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/title.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/title.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/title.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/title.dir/build
 .PHONY : title/fast
 
 #=============================================================================
@@ -367,7 +367,7 @@ timeout: cmake_check_build_system
 
 # fast build rule for target.
 timeout/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/timeout.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/timeout.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/timeout.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/timeout.dir/build
 .PHONY : timeout/fast
 
 #=============================================================================
@@ -380,7 +380,7 @@ threads: cmake_check_build_system
 
 # fast build rule for target.
 threads/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/threads.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/threads.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/threads.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/threads.dir/build
 .PHONY : threads/fast
 
 #=============================================================================
@@ -393,7 +393,7 @@ opacity: cmake_check_build_system
 
 # fast build rule for target.
 opacity/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/opacity.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/opacity.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/opacity.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/opacity.dir/build
 .PHONY : opacity/fast
 
 #=============================================================================
@@ -406,7 +406,7 @@ gamma: cmake_check_build_system
 
 # fast build rule for target.
 gamma/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/gamma.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/gamma.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/gamma.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/gamma.dir/build
 .PHONY : gamma/fast
 
 #=============================================================================
@@ -419,7 +419,7 @@ tearing: cmake_check_build_system
 
 # fast build rule for target.
 tearing/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/tearing.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/tearing.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/tearing.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/tearing.dir/build
 .PHONY : tearing/fast
 
 #=============================================================================
@@ -432,7 +432,7 @@ iconify: cmake_check_build_system
 
 # fast build rule for target.
 iconify/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/iconify.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/iconify.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/iconify.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/iconify.dir/build
 .PHONY : iconify/fast
 
 #=============================================================================
@@ -445,7 +445,7 @@ joysticks: cmake_check_build_system
 
 # fast build rule for target.
 joysticks/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/joysticks.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/joysticks.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/joysticks.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/joysticks.dir/build
 .PHONY : joysticks/fast
 
 #=============================================================================
@@ -458,7 +458,7 @@ windows: cmake_check_build_system
 
 # fast build rule for target.
 windows/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/windows.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/windows.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/windows.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
 #=============================================================================
@@ -471,7 +471,7 @@ inputlag: cmake_check_build_system
 
 # fast build rule for target.
 inputlag/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/inputlag.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/inputlag.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/inputlag.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/inputlag.dir/build
 .PHONY : inputlag/fast
 
 #=============================================================================
@@ -484,7 +484,7 @@ empty: cmake_check_build_system
 
 # fast build rule for target.
 empty/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/empty.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/empty.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/empty.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/empty.dir/build
 .PHONY : empty/fast
 
 #=============================================================================
@@ -497,7 +497,7 @@ reopen: cmake_check_build_system
 
 # fast build rule for target.
 reopen/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/reopen.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/reopen.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/reopen.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/reopen.dir/build
 .PHONY : reopen/fast
 
 #=============================================================================
@@ -510,7 +510,7 @@ msaa: cmake_check_build_system
 
 # fast build rule for target.
 msaa/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/msaa.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/msaa.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/msaa.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/msaa.dir/build
 .PHONY : msaa/fast
 
 #=============================================================================
@@ -523,7 +523,7 @@ cursor: cmake_check_build_system
 
 # fast build rule for target.
 cursor/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/cursor.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/cursor.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/cursor.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/cursor.dir/build
 .PHONY : cursor/fast
 
 #=============================================================================
@@ -536,7 +536,7 @@ glfwinfo: cmake_check_build_system
 
 # fast build rule for target.
 glfwinfo/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/glfwinfo.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/glfwinfo.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/glfwinfo.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/glfwinfo.dir/build
 .PHONY : glfwinfo/fast
 
 #=============================================================================
@@ -549,7 +549,7 @@ monitors: cmake_check_build_system
 
 # fast build rule for target.
 monitors/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/monitors.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/monitors.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/monitors.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/monitors.dir/build
 .PHONY : monitors/fast
 
 #=============================================================================
@@ -562,7 +562,7 @@ events: cmake_check_build_system
 
 # fast build rule for target.
 events/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/events.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/events.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/events.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/events.dir/build
 .PHONY : events/fast
 
 #=============================================================================
@@ -575,7 +575,7 @@ icon: cmake_check_build_system
 
 # fast build rule for target.
 icon/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/tests/CMakeFiles/icon.dir/build.make external/glfw-3.3.3/tests/CMakeFiles/icon.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/tests/CMakeFiles/icon.dir/build.make src/vendor/glfw-3.3.3/tests/CMakeFiles/icon.dir/build
 .PHONY : icon/fast
 
 #=============================================================================
@@ -588,7 +588,7 @@ docs: cmake_check_build_system
 
 # fast build rule for target.
 docs/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw-3.3.3/docs/CMakeFiles/docs.dir/build.make external/glfw-3.3.3/docs/CMakeFiles/docs.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glfw-3.3.3/docs/CMakeFiles/docs.dir/build.make src/vendor/glfw-3.3.3/docs/CMakeFiles/docs.dir/build
 .PHONY : docs/fast
 
 #=============================================================================
@@ -601,7 +601,7 @@ glad: cmake_check_build_system
 
 # fast build rule for target.
 glad/fast:
-	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
+	$(MAKE) $(MAKESILENT) -f src/vendor/glad/CMakeFiles/glad.dir/build.make src/vendor/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 #=============================================================================

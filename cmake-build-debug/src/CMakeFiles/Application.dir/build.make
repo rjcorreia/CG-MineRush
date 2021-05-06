@@ -278,8 +278,8 @@ src/Application: src/CMakeFiles/Application.dir/vendor/imgui/imgui_draw.cpp.o
 src/Application: src/CMakeFiles/Application.dir/tests/TestClearColor.cpp.o
 src/Application: src/CMakeFiles/Application.dir/tests/Test.cpp.o
 src/Application: src/CMakeFiles/Application.dir/build.make
-src/Application: external/glfw-3.3.3/src/libglfw3.a
-src/Application: external/glad/libglad.a
+src/Application: src/vendor/glfw-3.3.3/src/libglfw3.a
+src/Application: src/vendor/glad/libglad.a
 src/Application: src/CMakeFiles/Application.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Application"
 	cd "/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Application.dir/link.txt --verbose=$(VERBOSE)

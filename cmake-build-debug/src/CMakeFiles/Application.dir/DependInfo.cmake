@@ -22,17 +22,20 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../external/glfw-3.3.3/include/GLFW"
-  "../external/glad/include"
+  "../src/vendor/glfw-3.3.3/include/GLFW"
+  "../src/vendor/glad/include"
+  "../src/vendor/glm"
+  "../src/vendor/imgui"
+  "../src/vendor/stb_image"
   "../res"
   "../src/vendor"
-  "../external/glfw-3.3.3/include"
+  "../src/vendor/glfw-3.3.3/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/external/glfw-3.3.3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/external/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/src/vendor/glfw-3.3.3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/bidinho/Library/Mobile Documents/com~apple~CloudDocs/Work/UAlg/3_ano/6_sem/CG/game/cmake-build-debug/src/vendor/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
