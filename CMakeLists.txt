@@ -2,7 +2,7 @@
 # refer to the root source directory of the project as ${CGr_SOURCE_DIR} and
 # to the root binary directory of the project as ${CGr_BINARY_DIR}.
 cmake_minimum_required(VERSION 3.15)
-project(cherno)
+project(game)
 
 # OpenGL Flags
 set(OpenGL_GL_PREFERENCE GLVND)

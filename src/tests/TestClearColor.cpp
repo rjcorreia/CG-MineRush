@@ -4,7 +4,7 @@
 
 #include "TestClearColor.h"
 #include "glad/glad.h"
-#include "Renderer.h"
+#include "../Renderer.h"
 #include "imgui/imgui.h"
 
 namespace test {
@@ -18,7 +18,7 @@ namespace test {
 
     }
 
-    void TestClearColor::onUpdate(flaot deltaTime) {
+    void TestClearColor::onUpdate(float deltaTime) {
     }
 
     void TestClearColor::onRender() {

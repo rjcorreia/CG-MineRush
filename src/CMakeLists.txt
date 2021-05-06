@@ -12,6 +12,8 @@ add_executable(Application
         vendor/imgui/imgui.cpp
         vendor/imgui/imgui_impl_glfw_gl3.cpp
         vendor/imgui/imgui_draw.cpp
+        tests/TestClearColor.cpp
+        tests/Test.cpp
         )
 
 
