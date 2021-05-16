@@ -1,0 +1,5 @@
+/etc/clion-2021.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bid/UALG/CGr/game_2
+-- Using X11 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bid/UALG/CGr/game_2/cmake-build-debug

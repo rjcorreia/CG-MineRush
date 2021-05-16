@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSOIL2.a CMakeFiles/SOIL2.dir/SOIL2.c.o
+/usr/bin/ranlib libSOIL2.a
