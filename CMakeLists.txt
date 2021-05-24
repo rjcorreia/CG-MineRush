@@ -8,7 +8,6 @@ project(game2)
 # OpenGL Flags
 set(OpenGL_GL_PREFERENCE GLVND)
 
-list(APPEND CMAKE_PREFIX_PATH "/usr/lib")
 
 find_package(OpenGL REQUIRED)
 find_package(SDL2 REQUIRED)
@@ -18,6 +17,7 @@ find_library(SOIL2 libsoil2-debug)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+list(APPEND CMAKE_PREFIX_PATH "/usr/lib")
 # Compile external dependencies
 add_subdirectory(src/vendor)
 
