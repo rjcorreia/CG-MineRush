@@ -23,3 +23,16 @@ include_directories(
         glm/
 )
 
+
+
+add_subdirectory(assimp-5.0.1)
+
+include_directories(
+	assimp-5.0.1/build/include/assimp
+)
+
+add_subdirectory(stb_image)
+
+include_directories(
+		stb_image/
+)

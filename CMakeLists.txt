@@ -22,7 +22,7 @@ list(APPEND CMAKE_PREFIX_PATH "/usr/lib")
 add_subdirectory(src/vendor)
 
 include_directories(
-        /usr/lib
+		/usr/lib
         src/vendor/glfw-3.3.3/include/GLFW/
         src/vendor/glad/include/
         src/vendor/glm/
@@ -30,6 +30,7 @@ include_directories(
         src/vendor/stb_image/
         res/
         src/vendor/
+		src/vendor/assimp-5.0.1/
 )
 # Recurse into the "Hello" and "Demo" subdirectories. This does not actually
 # cause another cmake executable to run. The same process will walk through
@@ -41,6 +42,9 @@ set(ALL_LIBS
         glfw3
         glad
         lib
-        glm)
+        glm
+		assimp
+		stb_image
+)
 
 
