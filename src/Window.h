@@ -4,11 +4,12 @@
 #include<iostream>
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
-#include<vector>
+#include <vector>
 
 #include "Shader.h"
 #include "PlayerChar.h"
 #include "MovingBody.h"
+#include "PickUps.h"
 
 class Window
 {

@@ -14,7 +14,9 @@ add_executable(
 		Shader.cpp
 		VAO.cpp
 		VBO.cpp
-		Window.cpp)
+		Window.cpp
+		PickUps.cpp
+)
 
 find_library(SOIL2 soil2-debug)
 # Link the executable to the glad library. Since the glad library has
